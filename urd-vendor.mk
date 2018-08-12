@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/zte/urd/proprietary/bin/gx_fpd:system/bin/gx_fpd \
+    vendor/zte/urd/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/zte/urd/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/zte/urd/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/zte/urd/proprietary/bin/irsc_util:system/bin/irsc_util \
