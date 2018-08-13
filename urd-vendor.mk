@@ -93,7 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/zte/urd/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/zte/urd/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/zte/urd/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
+    vendor/zte/urd/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/zte/urd/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/zte/urd/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/zte/urd/proprietary/lib64/hw/sensors.msm8952.so:system/lib64/hw/sensors.msm8952.so \
@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/lib64/libmodemapi.so:system/lib64/libmodemapi.so \
     vendor/zte/urd/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
     vendor/zte/urd/proprietary/lib64/libvendorutils.so:system/lib64/libvendorutils.so \
+    vendor/zte/urd/proprietary/lib64/hw/lights.msm8952.so:system/lib64/hw/lights.msm8952.so \
     vendor/zte/urd/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/zte/urd/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/zte/urd/proprietary/vendor/bin/qti:system/vendor/bin/qti \
@@ -288,6 +289,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/zte/urd/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zte/urd/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/zte/urd/proprietary/lib/hw/lights.msm8952.so:system/lib/hw/lights.msm8952.so \
     vendor/zte/urd/proprietary/vendor/lib/libImgFvDetect.so:system/vendor/lib/libImgFvDetect.so \
     vendor/zte/urd/proprietary/vendor/lib/libZEffectLib.so:system/vendor/lib/libZEffectLib.so \
     vendor/zte/urd/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
