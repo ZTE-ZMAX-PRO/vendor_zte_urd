@@ -703,6 +703,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/zte/urd/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/zte/urd/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/zte/urd/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/zte/urd/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/zte/urd/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/zte/urd/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
@@ -887,6 +888,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/zte/urd/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/zte/urd/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/zte/urd/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/zte/urd/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/zte/urd/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/zte/urd/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
