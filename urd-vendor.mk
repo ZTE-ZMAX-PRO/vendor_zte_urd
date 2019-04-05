@@ -106,6 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/zte/urd/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
+    vendor/zte/urd/proprietary/lib/soundfx/libasphere.so:system/lib/soundfx/libasphere.so \
     vendor/zte/urd/proprietary/vendor/lib64/hw/fingerprint.goodix.so:system/vendor/lib64/hw/fingerprint.goodix.so \
     vendor/zte/urd/proprietary/vendor/lib64/hw/gps.default.so:system/vendor/lib64/hw/gps.default.so \
     vendor/zte/urd/proprietary/vendor/lib64/hw/gxfingerprint.default.so:system/vendor/lib64/hw/gxfingerprint.default.so \
@@ -121,11 +122,13 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib64/libmodemapi.so:system/vendor/lib64/libmodemapi.so \
     vendor/zte/urd/proprietary/vendor/lib64/libsensorservice.so:system/vendor/lib64/libsensorservice.so \
     vendor/zte/urd/proprietary/vendor/lib64/libvendorutils.so:system/vendor/lib64/libvendorutils.so \
+    vendor/zte/urd/proprietary/lib64/soundfx/libasphere.so:system/lib64/soundfx/libasphere.so \
     vendor/zte/urd/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/zte/urd/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/zte/urd/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/zte/urd/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zte/urd/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/zte/urd/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/zte/urd/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/zte/urd/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/zte/urd/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -136,6 +139,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/zte/urd/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/zte/urd/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/zte/urd/proprietary/vendor/lib/libDiracAPI_SHARED.so:system/vendor/lib/libDiracAPI_SHARED.so \
     vendor/zte/urd/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/zte/urd/proprietary/vendor/lib/libImgFvDetect.so:system/vendor/lib/libImgFvDetect.so \
     vendor/zte/urd/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
@@ -838,6 +842,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/zte/urd/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/zte/urd/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/zte/urd/proprietary/vendor/lib/soundfx/libdirac.so:system/vendor/lib/soundfx/libdirac.so \
     vendor/zte/urd/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
     vendor/zte/urd/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/zte/urd/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
