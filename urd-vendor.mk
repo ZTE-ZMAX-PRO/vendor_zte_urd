@@ -65,8 +65,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb \
     vendor/zte/urd/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
     vendor/zte/urd/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
-    vendor/zte/urd/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
-    vendor/zte/urd/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
+    vendor/zte/urd/proprietary/vendor/firmware/DE.o.msm8952:system/vendor/firmware/DE.o.msm8952 \
+    vendor/zte/urd/proprietary/vendor/firmware/DE.o.msm8976:system/vendor/firmware/DE.o.msm8976 \
     vendor/zte/urd/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/zte/urd/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/zte/urd/proprietary/vendor/etc/firmware/cpp_firmware_v1_10_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_10_0.fw \
@@ -77,9 +77,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/etc/firmware/cpp_firmware_v1_5_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_5_0.fw \
     vendor/zte/urd/proprietary/vendor/etc/firmware/cpp_firmware_v1_6_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/zte/urd/proprietary/vendor/etc/firmware/cpp_firmware_v1_8_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/zte/urd/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/zte/urd/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/zte/urd/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/zte/urd/proprietary/vendor/firmware/ice40.bin:system/vendor/firmware/ice40.bin \
+    vendor/zte/urd/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
+    vendor/zte/urd/proprietary/vendor/etc/firmware/leia_pm4_470.fw:system/vendor/etc/firmware/leia_pm4_470.fw \
     vendor/zte/urd/proprietary/vendor/firmware/venus-v1.b00:system/vendor/firmware/venus-v1.b00 \
     vendor/zte/urd/proprietary/vendor/firmware/venus-v1.b01:system/vendor/firmware/venus-v1.b01 \
     vendor/zte/urd/proprietary/vendor/firmware/venus-v1.b02:system/vendor/firmware/venus-v1.b02 \
@@ -100,12 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zte/urd/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/zte/urd/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/zte/urd/proprietary/vendor/lib/hw/camera.vendor.msm8952.so:system/vendor/lib/hw/camera.vendor.msm8952.so \
     vendor/zte/urd/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
-    vendor/zte/urd/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/zte/urd/proprietary/lib/soundfx/libasphere.so:system/lib/soundfx/libasphere.so \
     vendor/zte/urd/proprietary/vendor/lib64/hw/fingerprint.goodix.so:system/vendor/lib64/hw/fingerprint.goodix.so \
     vendor/zte/urd/proprietary/vendor/lib64/hw/gps.default.so:system/vendor/lib64/hw/gps.default.so \
@@ -177,78 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/zte/urd/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/zte/urd/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_csidtg_preview.so:system/vendor/lib/libchromatix_csidtg_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_4k_preview_lc898122.so:system/vendor/lib/libchromatix_imx214_4k_preview_lc898122.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_4k_video_lc898122.so:system/vendor/lib/libchromatix_imx214_4k_video_lc898122.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx214_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx214_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx214_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_cpp_liveshot.so:system/vendor/lib/libchromatix_imx214_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_cpp_preview.so:system/vendor/lib/libchromatix_imx214_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_cpp_snapshot.so:system/vendor/lib/libchromatix_imx214_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_cpp_snapshot_hdr.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_cpp_video.so:system/vendor/lib/libchromatix_imx214_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx214_cpp_video_hdr.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_default_preview_lc898122.so:system/vendor/lib/libchromatix_imx214_default_preview_lc898122.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_default_video_lc898122.so:system/vendor/lib/libchromatix_imx214_default_video_lc898122.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_hfr_120_lc898122.so:system/vendor/lib/libchromatix_imx214_hfr_120_lc898122.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_hfr_60.so:system/vendor/lib/libchromatix_imx214_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_hfr_60_lc898122.so:system/vendor/lib/libchromatix_imx214_hfr_60_lc898122.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_hfr_90.so:system/vendor/lib/libchromatix_imx214_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_hfr_90_lc898122.so:system/vendor/lib/libchromatix_imx214_hfr_90_lc898122.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:system/vendor/lib/libchromatix_imx214_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_postproc.so:system/vendor/lib/libchromatix_imx214_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_zsl_preview_lc898122.so:system/vendor/lib/libchromatix_imx214_zsl_preview_lc898122.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx214_zsl_video_lc898122.so:system/vendor/lib/libchromatix_imx214_zsl_video_lc898122.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_1080p_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_1080p_preview_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_1080p_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_1080p_video_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_4k_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_4k_preview_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_4k_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_4k_video_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_common.so:system/vendor/lib/libchromatix_imx230_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_240.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_cpp_liveshot.so:system/vendor/lib/libchromatix_imx230_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_cpp_preview.so:system/vendor/lib/libchromatix_imx230_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_cpp_video.so:system/vendor/lib/libchromatix_imx230_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_cpp_video_4k.so:system/vendor/lib/libchromatix_imx230_cpp_video_4k.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_video_hdr.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_default_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_default_preview_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_default_video.so:system/vendor/lib/libchromatix_imx230_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_default_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_default_video_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_hdr_snapshot_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hdr_snapshot_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_hdr_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hdr_video_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_hfr_120.so:system/vendor/lib/libchromatix_imx230_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_120_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_hfr_240.so:system/vendor/lib/libchromatix_imx230_hfr_240.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_hfr_240_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_240_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_hfr_60.so:system/vendor/lib/libchromatix_imx230_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_hfr_90.so:system/vendor/lib/libchromatix_imx230_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so:system/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_liveshot.so:system/vendor/lib/libchromatix_imx230_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_postproc.so:system/vendor/lib/libchromatix_imx230_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_preview.so:system/vendor/lib/libchromatix_imx230_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_snapshot.so:system/vendor/lib/libchromatix_imx230_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_snapshot_hdr.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_video_16M_lc898212xd.so:system/vendor/lib/libchromatix_imx230_video_16M_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_video_4k.so:system/vendor/lib/libchromatix_imx230_video_4k.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_video_hdr.so:system/vendor/lib/libchromatix_imx230_video_hdr.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_zsl_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_zsl_preview_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx258_4k_preview_bu64297gwz.so:system/vendor/lib/libchromatix_imx258_4k_preview_bu64297gwz.so \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx258_4k_video_bu64297gwz.so:system/vendor/lib/libchromatix_imx258_4k_video_bu64297gwz.so \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx258_common.so:system/vendor/lib/libchromatix_imx258_common.so \
@@ -278,342 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx258_video_4k.so:system/vendor/lib/libchromatix_imx258_video_4k.so \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_bu64297gwz.so:system/vendor/lib/libchromatix_imx258_zsl_preview_bu64297gwz.so \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_imx258_zsl_video_bu64297gwz.so:system/vendor/lib/libchromatix_imx258_zsl_video_bu64297gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_common.so:system/vendor/lib/libchromatix_ov13850_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov13850_cpp_ds_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13850_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov13850_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov13850_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_cpp_liveshot.so:system/vendor/lib/libchromatix_ov13850_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_cpp_preview.so:system/vendor/lib/libchromatix_ov13850_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_cpp_snapshot.so:system/vendor/lib/libchromatix_ov13850_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov13850_cpp_us_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_cpp_video.so:system/vendor/lib/libchromatix_ov13850_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_cpp_video_full.so:system/vendor/lib/libchromatix_ov13850_cpp_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_default_preview_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_default_preview_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_default_video.so:system/vendor/lib/libchromatix_ov13850_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_default_video_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_default_video_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_hfr_120.so:system/vendor/lib/libchromatix_ov13850_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_hfr_120_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_hfr_60.so:system/vendor/lib/libchromatix_ov13850_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_hfr_60_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_hfr_90.so:system/vendor/lib/libchromatix_ov13850_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_hfr_90_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_hfr_90_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_liveshot.so:system/vendor/lib/libchromatix_ov13850_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_common.so:system/vendor/lib/libchromatix_ov13850_polaris_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov13850_polaris_cpp_ds_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13850_polaris_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov13850_polaris_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov13850_polaris_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_cpp_liveshot.so:system/vendor/lib/libchromatix_ov13850_polaris_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_cpp_preview.so:system/vendor/lib/libchromatix_ov13850_polaris_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_cpp_snapshot.so:system/vendor/lib/libchromatix_ov13850_polaris_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov13850_polaris_cpp_us_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_cpp_video.so:system/vendor/lib/libchromatix_ov13850_polaris_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_cpp_video_full.so:system/vendor/lib/libchromatix_ov13850_polaris_cpp_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_default_preview_bu64297.so:system/vendor/lib/libchromatix_ov13850_polaris_default_preview_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_default_video.so:system/vendor/lib/libchromatix_ov13850_polaris_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_default_video_bu64297.so:system/vendor/lib/libchromatix_ov13850_polaris_default_video_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_hfr_120.so:system/vendor/lib/libchromatix_ov13850_polaris_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_hfr_120_bu64297.so:system/vendor/lib/libchromatix_ov13850_polaris_hfr_120_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_hfr_60.so:system/vendor/lib/libchromatix_ov13850_polaris_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_hfr_60_bu64297.so:system/vendor/lib/libchromatix_ov13850_polaris_hfr_60_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_hfr_90.so:system/vendor/lib/libchromatix_ov13850_polaris_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_hfr_90_bu64297.so:system/vendor/lib/libchromatix_ov13850_polaris_hfr_90_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_liveshot.so:system/vendor/lib/libchromatix_ov13850_polaris_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_postproc.so:system/vendor/lib/libchromatix_ov13850_polaris_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_preview.so:system/vendor/lib/libchromatix_ov13850_polaris_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_snapshot.so:system/vendor/lib/libchromatix_ov13850_polaris_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_video_full.so:system/vendor/lib/libchromatix_ov13850_polaris_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_zsl_preview_bu64297.so:system/vendor/lib/libchromatix_ov13850_polaris_zsl_preview_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_polaris_zsl_video_bu64297.so:system/vendor/lib/libchromatix_ov13850_polaris_zsl_video_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_postproc.so:system/vendor/lib/libchromatix_ov13850_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_preview.so:system/vendor/lib/libchromatix_ov13850_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_common.so:system/vendor/lib/libchromatix_ov13850_q13v06k_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov13850_q13v06k_cpp_ds_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13850_q13v06k_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov13850_q13v06k_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov13850_q13v06k_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_cpp_liveshot.so:system/vendor/lib/libchromatix_ov13850_q13v06k_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_cpp_preview.so:system/vendor/lib/libchromatix_ov13850_q13v06k_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_cpp_snapshot.so:system/vendor/lib/libchromatix_ov13850_q13v06k_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov13850_q13v06k_cpp_us_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_cpp_video.so:system/vendor/lib/libchromatix_ov13850_q13v06k_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_cpp_video_full.so:system/vendor/lib/libchromatix_ov13850_q13v06k_cpp_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_default_preview_bu64297.so:system/vendor/lib/libchromatix_ov13850_q13v06k_default_preview_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_default_video.so:system/vendor/lib/libchromatix_ov13850_q13v06k_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_default_video_bu64297.so:system/vendor/lib/libchromatix_ov13850_q13v06k_default_video_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_120.so:system/vendor/lib/libchromatix_ov13850_q13v06k_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_120_bu64297.so:system/vendor/lib/libchromatix_ov13850_q13v06k_hfr_120_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_60.so:system/vendor/lib/libchromatix_ov13850_q13v06k_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_60_bu64297.so:system/vendor/lib/libchromatix_ov13850_q13v06k_hfr_60_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_90.so:system/vendor/lib/libchromatix_ov13850_q13v06k_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_hfr_90_bu64297.so:system/vendor/lib/libchromatix_ov13850_q13v06k_hfr_90_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_liveshot.so:system/vendor/lib/libchromatix_ov13850_q13v06k_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_postproc.so:system/vendor/lib/libchromatix_ov13850_q13v06k_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_preview.so:system/vendor/lib/libchromatix_ov13850_q13v06k_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_snapshot.so:system/vendor/lib/libchromatix_ov13850_q13v06k_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_video_full.so:system/vendor/lib/libchromatix_ov13850_q13v06k_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_zsl_preview_bu64297.so:system/vendor/lib/libchromatix_ov13850_q13v06k_zsl_preview_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_zsl_video_bu64297.so:system/vendor/lib/libchromatix_ov13850_q13v06k_zsl_video_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_snapshot.so:system/vendor/lib/libchromatix_ov13850_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_video_full.so:system/vendor/lib/libchromatix_ov13850_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_zsl_preview_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_zsl_preview_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13850_zsl_video_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_zsl_video_lc898212xd.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_common.so:system/vendor/lib/libchromatix_ov13855_f13v08b_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov13855_f13v08b_cpp_ds_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13855_f13v08b_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov13855_f13v08b_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov13855_f13v08b_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_liveshot.so:system/vendor/lib/libchromatix_ov13855_f13v08b_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_preview.so:system/vendor/lib/libchromatix_ov13855_f13v08b_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_snapshot.so:system/vendor/lib/libchromatix_ov13855_f13v08b_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov13855_f13v08b_cpp_us_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_video.so:system/vendor/lib/libchromatix_ov13855_f13v08b_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_video_full.so:system/vendor/lib/libchromatix_ov13855_f13v08b_cpp_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_default_preview_bu64297.so:system/vendor/lib/libchromatix_ov13855_f13v08b_default_preview_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_default_video.so:system/vendor/lib/libchromatix_ov13855_f13v08b_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_default_video_bu64297.so:system/vendor/lib/libchromatix_ov13855_f13v08b_default_video_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_120.so:system/vendor/lib/libchromatix_ov13855_f13v08b_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_120_bu64297.so:system/vendor/lib/libchromatix_ov13855_f13v08b_hfr_120_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_60.so:system/vendor/lib/libchromatix_ov13855_f13v08b_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_60_bu64297.so:system/vendor/lib/libchromatix_ov13855_f13v08b_hfr_60_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_90.so:system/vendor/lib/libchromatix_ov13855_f13v08b_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_90_bu64297.so:system/vendor/lib/libchromatix_ov13855_f13v08b_hfr_90_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_liveshot.so:system/vendor/lib/libchromatix_ov13855_f13v08b_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_postproc.so:system/vendor/lib/libchromatix_ov13855_f13v08b_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_preview.so:system/vendor/lib/libchromatix_ov13855_f13v08b_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_snapshot.so:system/vendor/lib/libchromatix_ov13855_f13v08b_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_video_full.so:system/vendor/lib/libchromatix_ov13855_f13v08b_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_zsl_preview_bu64297.so:system/vendor/lib/libchromatix_ov13855_f13v08b_zsl_preview_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_zsl_video_bu64297.so:system/vendor/lib/libchromatix_ov13855_f13v08b_zsl_video_bu64297.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_common.so:system/vendor/lib/libchromatix_ov4688_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov4688_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov4688_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_cpp_liveshot.so:system/vendor/lib/libchromatix_ov4688_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_cpp_preview.so:system/vendor/lib/libchromatix_ov4688_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_cpp_snapshot.so:system/vendor/lib/libchromatix_ov4688_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_cpp_video.so:system/vendor/lib/libchromatix_ov4688_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_default_video.so:system/vendor/lib/libchromatix_ov4688_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_hfr_120.so:system/vendor/lib/libchromatix_ov4688_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_hfr_120_ad5823.so:system/vendor/lib/libchromatix_ov4688_hfr_120_ad5823.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_hfr_60.so:system/vendor/lib/libchromatix_ov4688_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_hfr_60_ad5823.so:system/vendor/lib/libchromatix_ov4688_hfr_60_ad5823.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_hfr_90.so:system/vendor/lib/libchromatix_ov4688_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_hfr_90_ad5823.so:system/vendor/lib/libchromatix_ov4688_hfr_90_ad5823.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_postproc.so:system/vendor/lib/libchromatix_ov4688_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_preview.so:system/vendor/lib/libchromatix_ov4688_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_snapshot.so:system/vendor/lib/libchromatix_ov4688_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_zsl_preview_ad5823.so:system/vendor/lib/libchromatix_ov4688_zsl_preview_ad5823.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov4688_zsl_video_ad5823.so:system/vendor/lib/libchromatix_ov4688_zsl_video_ad5823.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_a3_default_preview.so:system/vendor/lib/libchromatix_ov5670_a3_default_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_a3_default_video.so:system/vendor/lib/libchromatix_ov5670_a3_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_a3_hfr_120.so:system/vendor/lib/libchromatix_ov5670_a3_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_a3_hfr_60.so:system/vendor/lib/libchromatix_ov5670_a3_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_a3_hfr_90.so:system/vendor/lib/libchromatix_ov5670_a3_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_common.so:system/vendor/lib/libchromatix_ov5670_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov5670_cpp_ds_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov5670_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov5670_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov5670_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_cpp_liveshot.so:system/vendor/lib/libchromatix_ov5670_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_cpp_preview.so:system/vendor/lib/libchromatix_ov5670_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_cpp_snapshot.so:system/vendor/lib/libchromatix_ov5670_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov5670_cpp_us_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_cpp_video.so:system/vendor/lib/libchromatix_ov5670_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_cpp_video_full.so:system/vendor/lib/libchromatix_ov5670_cpp_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_default_video.so:system/vendor/lib/libchromatix_ov5670_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_hfr_120.so:system/vendor/lib/libchromatix_ov5670_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_hfr_60.so:system/vendor/lib/libchromatix_ov5670_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_hfr_90.so:system/vendor/lib/libchromatix_ov5670_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_liveshot.so:system/vendor/lib/libchromatix_ov5670_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_a3_default_preview.so:system/vendor/lib/libchromatix_ov5670_polaris_a3_default_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_a3_default_video.so:system/vendor/lib/libchromatix_ov5670_polaris_a3_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_a3_hfr_120.so:system/vendor/lib/libchromatix_ov5670_polaris_a3_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_a3_hfr_60.so:system/vendor/lib/libchromatix_ov5670_polaris_a3_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_a3_hfr_90.so:system/vendor/lib/libchromatix_ov5670_polaris_a3_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_common.so:system/vendor/lib/libchromatix_ov5670_polaris_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov5670_polaris_cpp_ds_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov5670_polaris_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov5670_polaris_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov5670_polaris_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_cpp_liveshot.so:system/vendor/lib/libchromatix_ov5670_polaris_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_cpp_preview.so:system/vendor/lib/libchromatix_ov5670_polaris_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_cpp_snapshot.so:system/vendor/lib/libchromatix_ov5670_polaris_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov5670_polaris_cpp_us_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_cpp_video.so:system/vendor/lib/libchromatix_ov5670_polaris_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_cpp_video_full.so:system/vendor/lib/libchromatix_ov5670_polaris_cpp_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_default_video.so:system/vendor/lib/libchromatix_ov5670_polaris_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_hfr_120.so:system/vendor/lib/libchromatix_ov5670_polaris_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_hfr_60.so:system/vendor/lib/libchromatix_ov5670_polaris_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_hfr_90.so:system/vendor/lib/libchromatix_ov5670_polaris_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_liveshot.so:system/vendor/lib/libchromatix_ov5670_polaris_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_postproc.so:system/vendor/lib/libchromatix_ov5670_polaris_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_preview.so:system/vendor/lib/libchromatix_ov5670_polaris_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_snapshot.so:system/vendor/lib/libchromatix_ov5670_polaris_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_video_full.so:system/vendor/lib/libchromatix_ov5670_polaris_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_zsl_preview.so:system/vendor/lib/libchromatix_ov5670_polaris_zsl_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_polaris_zsl_video.so:system/vendor/lib/libchromatix_ov5670_polaris_zsl_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_postproc.so:system/vendor/lib/libchromatix_ov5670_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_preview.so:system/vendor/lib/libchromatix_ov5670_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_snapshot.so:system/vendor/lib/libchromatix_ov5670_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_video_full.so:system/vendor/lib/libchromatix_ov5670_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_zsl_preview.so:system/vendor/lib/libchromatix_ov5670_zsl_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5670_zsl_video.so:system/vendor/lib/libchromatix_ov5670_zsl_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_common.so:system/vendor/lib/libchromatix_ov5695_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov5695_cpp_ds_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov5695_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov5695_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov5695_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_cpp_liveshot.so:system/vendor/lib/libchromatix_ov5695_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_cpp_preview.so:system/vendor/lib/libchromatix_ov5695_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_cpp_snapshot.so:system/vendor/lib/libchromatix_ov5695_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov5695_cpp_us_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_cpp_video.so:system/vendor/lib/libchromatix_ov5695_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_cpp_video_full.so:system/vendor/lib/libchromatix_ov5695_cpp_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_default_preview_3a.so:system/vendor/lib/libchromatix_ov5695_default_preview_3a.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_default_video.so:system/vendor/lib/libchromatix_ov5695_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_default_video_3a.so:system/vendor/lib/libchromatix_ov5695_default_video_3a.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_hfr_120.so:system/vendor/lib/libchromatix_ov5695_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_hfr_120_3a.so:system/vendor/lib/libchromatix_ov5695_hfr_120_3a.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_hfr_60.so:system/vendor/lib/libchromatix_ov5695_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_hfr_60_3a.so:system/vendor/lib/libchromatix_ov5695_hfr_60_3a.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_hfr_90.so:system/vendor/lib/libchromatix_ov5695_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_hfr_90_3a.so:system/vendor/lib/libchromatix_ov5695_hfr_90_3a.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_liveshot.so:system/vendor/lib/libchromatix_ov5695_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_postproc.so:system/vendor/lib/libchromatix_ov5695_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_preview.so:system/vendor/lib/libchromatix_ov5695_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_snapshot.so:system/vendor/lib/libchromatix_ov5695_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_video_full.so:system/vendor/lib/libchromatix_ov5695_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_zsl_preview_3a.so:system/vendor/lib/libchromatix_ov5695_zsl_preview_3a.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov5695_zsl_video_3a.so:system/vendor/lib/libchromatix_ov5695_zsl_video_3a.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_a3_default_preview.so:system/vendor/lib/libchromatix_ov8858_a3_default_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_a3_default_video.so:system/vendor/lib/libchromatix_ov8858_a3_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_a3_hfr_120.so:system/vendor/lib/libchromatix_ov8858_a3_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_a3_hfr_60.so:system/vendor/lib/libchromatix_ov8858_a3_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_a3_hfr_90.so:system/vendor/lib/libchromatix_ov8858_a3_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_common.so:system/vendor/lib/libchromatix_ov8858_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8858_cpp_ds_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8858_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8858_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8858_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8858_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_cpp_preview.so:system/vendor/lib/libchromatix_ov8858_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8858_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8858_cpp_us_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_cpp_video.so:system/vendor/lib/libchromatix_ov8858_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_default_video.so:system/vendor/lib/libchromatix_ov8858_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_hfr_120.so:system/vendor/lib/libchromatix_ov8858_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_hfr_60.so:system/vendor/lib/libchromatix_ov8858_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_hfr_90.so:system/vendor/lib/libchromatix_ov8858_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_liveshot.so:system/vendor/lib/libchromatix_ov8858_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_postproc.so:system/vendor/lib/libchromatix_ov8858_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_preview.so:system/vendor/lib/libchromatix_ov8858_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:system/vendor/lib/libchromatix_ov8858_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_zsl_preview.so:system/vendor/lib/libchromatix_ov8858_zsl_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8858_zsl_video.so:system/vendor/lib/libchromatix_ov8858_zsl_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_common.so:system/vendor/lib/libchromatix_ov8865_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_ds_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8865_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_cpp_preview.so:system/vendor/lib/libchromatix_ov8865_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8865_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_cpp_video.so:system/vendor/lib/libchromatix_ov8865_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_cpp_video_full.so:system/vendor/lib/libchromatix_ov8865_cpp_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_default_preview_dw9714.so:system/vendor/lib/libchromatix_ov8865_default_preview_dw9714.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_default_video.so:system/vendor/lib/libchromatix_ov8865_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_default_video_dw9714.so:system/vendor/lib/libchromatix_ov8865_default_video_dw9714.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_hfr_120.so:system/vendor/lib/libchromatix_ov8865_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_hfr_120_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_120_dw9714.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_hfr_60.so:system/vendor/lib/libchromatix_ov8865_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_60_dw9714.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_hfr_90.so:system/vendor/lib/libchromatix_ov8865_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_hfr_90_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_90_dw9714.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_liveshot.so:system/vendor/lib/libchromatix_ov8865_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_postproc.so:system/vendor/lib/libchromatix_ov8865_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_preview.so:system/vendor/lib/libchromatix_ov8865_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_snapshot.so:system/vendor/lib/libchromatix_ov8865_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_common.so:system/vendor/lib/libchromatix_s5k3m2xm_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_video.so:system/vendor/lib/libchromatix_s5k3m2xm_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_preview_bu64297gwz.so:system/vendor/lib/libchromatix_s5k3m2xm_default_preview_bu64297gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_video.so:system/vendor/lib/libchromatix_s5k3m2xm_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_video_bu64297gwz.so:system/vendor/lib/libchromatix_s5k3m2xm_default_video_bu64297gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_120_bu64297gwz.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_120_bu64297gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_60_bu64297gwz.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_60_bu64297gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_90_bu64297gwz.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_90_bu64297gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xm_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_postproc.so:system/vendor/lib/libchromatix_s5k3m2xm_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_preview.so:system/vendor/lib/libchromatix_s5k3m2xm_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xm_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_zsl_preview_bu64297gwz.so:system/vendor/lib/libchromatix_s5k3m2xm_zsl_preview_bu64297gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xm_zsl_video_bu64297gwz.so:system/vendor/lib/libchromatix_s5k3m2xm_zsl_video_bu64297gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_1080p_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_1080p_preview_ad5816g.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_1080p_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_1080p_video_ad5816g.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_4k_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_4k_preview_ad5816g.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_4k_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_4k_video_ad5816g.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_common.so:system/vendor/lib/libchromatix_s5k3m2xx_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_video.so:system/vendor/lib/libchromatix_s5k3m2xx_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_default_video_ad5816g.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_120_ad5816g.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_60_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_60_ad5816g.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_90_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_hfr_90_ad5816g.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_postproc.so:system/vendor/lib/libchromatix_s5k3m2xx_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_video_4k.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_a3_default_preview_bu64291gwz.so:system/vendor/lib/libchromatix_s5k3p3_a3_default_preview_bu64291gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_a3_default_video_bu64291gwz.so:system/vendor/lib/libchromatix_s5k3p3_a3_default_video_bu64291gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_a3_hfr_120_bu64291gwz.so:system/vendor/lib/libchromatix_s5k3p3_a3_hfr_120_bu64291gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_a3_hfr_60_bu64291gwz.so:system/vendor/lib/libchromatix_s5k3p3_a3_hfr_60_bu64291gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_a3_hfr_90_bu64291gwz.so:system/vendor/lib/libchromatix_s5k3p3_a3_hfr_90_bu64291gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_a3_zsl_preview_bu64291gwz.so:system/vendor/lib/libchromatix_s5k3p3_a3_zsl_preview_bu64291gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_a3_zsl_video_bu64291gwz.so:system/vendor/lib/libchromatix_s5k3p3_a3_zsl_video_bu64291gwz.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:system/vendor/lib/libchromatix_s5k3p3_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_default_video.so:system/vendor/lib/libchromatix_s5k3p3_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:system/vendor/lib/libchromatix_s5k3p3_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_preview.so:system/vendor/lib/libchromatix_s5k3p3_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_snapshot.so \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e2_a3_default_preview.so \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e2_a3_default_video.so \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k5e2_a3_hfr_120.so \
@@ -643,63 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_snapshot.so \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e2_zsl_preview.so \
     vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_zsl_video.so:system/vendor/lib/libchromatix_s5k5e2_zsl_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e8_a3_default_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e8_a3_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_common.so:system/vendor/lib/libchromatix_s5k5e8_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_cpp_ds_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_liveshot_small_size.so:system/vendor/lib/libchromatix_s5k5e8_cpp_liveshot_small_size.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_preview.so:system/vendor/lib/libchromatix_s5k5e8_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_preview_small_size.so:system/vendor/lib/libchromatix_s5k5e8_cpp_preview_small_size.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot_small_size.so:system/vendor/lib/libchromatix_s5k5e8_cpp_snapshot_small_size.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_us_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_cpp_us_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_video.so:system/vendor/lib/libchromatix_s5k5e8_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_video_small_size.so:system/vendor/lib/libchromatix_s5k5e8_cpp_video_small_size.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_default_video.so:system/vendor/lib/libchromatix_s5k5e8_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_postproc.so:system/vendor/lib/libchromatix_s5k5e8_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_preview.so:system/vendor/lib/libchromatix_s5k5e8_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_zsl_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_zsl_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_a3_default_preview.so:system/vendor/lib/libchromatix_t4kb3_a3_default_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_a3_default_video.so:system/vendor/lib/libchromatix_t4kb3_a3_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_a3_hfr_120.so:system/vendor/lib/libchromatix_t4kb3_a3_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_a3_hfr_60.so:system/vendor/lib/libchromatix_t4kb3_a3_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_a3_hfr_90.so:system/vendor/lib/libchromatix_t4kb3_a3_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_common.so:system/vendor/lib/libchromatix_t4kb3_common.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_t4kb3_cpp_ds_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_cpp_hfr_120.so:system/vendor/lib/libchromatix_t4kb3_cpp_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_cpp_hfr_60.so:system/vendor/lib/libchromatix_t4kb3_cpp_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_cpp_hfr_90.so:system/vendor/lib/libchromatix_t4kb3_cpp_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_cpp_liveshot.so:system/vendor/lib/libchromatix_t4kb3_cpp_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_cpp_preview.so:system/vendor/lib/libchromatix_t4kb3_cpp_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_cpp_skyeye_preview.so:system/vendor/lib/libchromatix_t4kb3_cpp_skyeye_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_cpp_snapshot.so:system/vendor/lib/libchromatix_t4kb3_cpp_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_cpp_us_chromatix.so:system/vendor/lib/libchromatix_t4kb3_cpp_us_chromatix.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_cpp_video.so:system/vendor/lib/libchromatix_t4kb3_cpp_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_default_video.so:system/vendor/lib/libchromatix_t4kb3_default_video.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_hfr_120.so:system/vendor/lib/libchromatix_t4kb3_hfr_120.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_hfr_60.so:system/vendor/lib/libchromatix_t4kb3_hfr_60.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_hfr_90.so:system/vendor/lib/libchromatix_t4kb3_hfr_90.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_liveshot.so:system/vendor/lib/libchromatix_t4kb3_liveshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_postproc.so:system/vendor/lib/libchromatix_t4kb3_postproc.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_preview.so:system/vendor/lib/libchromatix_t4kb3_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_skyeye_preview.so:system/vendor/lib/libchromatix_t4kb3_skyeye_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_snapshot.so:system/vendor/lib/libchromatix_t4kb3_snapshot.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_zsl_preview.so:system/vendor/lib/libchromatix_t4kb3_zsl_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_zsl_skyeye_preview.so:system/vendor/lib/libchromatix_t4kb3_zsl_skyeye_preview.so \
-    vendor/zte/urd/proprietary/vendor/lib/libchromatix_t4kb3_zsl_video.so:system/vendor/lib/libchromatix_t4kb3_zsl_video.so \
     vendor/zte/urd/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/zte/urd/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/zte/urd/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -739,17 +269,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_imx230.so:system/vendor/lib/libmmcamera_imx230.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_imx258_pd_eeprom.so:system/vendor/lib/libmmcamera_imx258_pd_eeprom.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
@@ -786,32 +311,11 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov13850_polaris.so:system/vendor/lib/libmmcamera_ov13850_polaris.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:system/vendor/lib/libmmcamera_ov13850_q13v06k.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov13855_f13v08b.so:system/vendor/lib/libmmcamera_ov13855_f13v08b.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov13855_gt24c64a_eeprom.so:system/vendor/lib/libmmcamera_ov13855_gt24c64a_eeprom.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov2685.so:system/vendor/lib/libmmcamera_ov2685.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov2685_scv3b4035.so:system/vendor/lib/libmmcamera_ov2685_scv3b4035.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov5670.so:system/vendor/lib/libmmcamera_ov5670.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov5670_polaris.so:system/vendor/lib/libmmcamera_ov5670_polaris.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov5695.so:system/vendor/lib/libmmcamera_ov5695.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_qtech_gt24c64a_eeprom.so:system/vendor/lib/libmmcamera_qtech_gt24c64a_eeprom.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:system/vendor/lib/libmmcamera_s5k3m2xm.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_s5k3m2xm_flipmirror.so:system/vendor/lib/libmmcamera_s5k3m2xm_flipmirror.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_s5k5e2.so:system/vendor/lib/libmmcamera_s5k5e2.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_s5k5e8.so:system/vendor/lib/libmmcamera_s5k5e8.so \
-    vendor/zte/urd/proprietary/vendor/lib/libmmcamera_t4kb3.so:system/vendor/lib/libmmcamera_t4kb3.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
