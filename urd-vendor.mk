@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/zte/urd/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/zte/urd/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
-    vendor/zte/urd/proprietary/recovery/root/sbin/qseecomd:system/recovery/root/sbin/qseecomd \
     vendor/zte/urd/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/zte/urd/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/zte/urd/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
@@ -370,12 +369,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/zte/urd/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
     vendor/zte/urd/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so \
-    vendor/zte/urd/proprietary/recovery/root/vendor/lib64/hw/keystore.msm8952.so:system/recovery/root/vendor/lib64/hw/keystore.msm8952.so \
     vendor/zte/urd/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/zte/urd/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/zte/urd/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/zte/urd/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/zte/urd/proprietary/recovery/root/vendor/lib64/libQSEEComAPI.so:system/recovery/root/vendor/lib64/libQSEEComAPI.so \
     vendor/zte/urd/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/zte/urd/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/zte/urd/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
@@ -390,13 +387,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/zte/urd/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/zte/urd/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
-    vendor/zte/urd/proprietary/recovery/root/vendor/lib64/libdiag.so:system/recovery/root/vendor/lib64/libdiag.so \
     vendor/zte/urd/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/zte/urd/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/zte/urd/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
-    vendor/zte/urd/proprietary/recovery/root/vendor/lib64/libdrmfs.so:system/recovery/root/vendor/lib64/libdrmfs.so \
     vendor/zte/urd/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/zte/urd/proprietary/recovery/root/vendor/lib64/libdrmtime.so:system/recovery/root/vendor/lib64/libdrmtime.so \
     vendor/zte/urd/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/zte/urd/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/zte/urd/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
@@ -439,18 +433,15 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/zte/urd/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
     vendor/zte/urd/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
-    vendor/zte/urd/proprietary/recovery/root/vendor/lib64/librpmb.so:system/recovery/root/vendor/lib64/librpmb.so \
     vendor/zte/urd/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/zte/urd/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/zte/urd/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/zte/urd/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/zte/urd/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/zte/urd/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/zte/urd/proprietary/recovery/root/vendor/lib64/libssd.so:system/recovery/root/vendor/lib64/libssd.so \
     vendor/zte/urd/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/zte/urd/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/zte/urd/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/zte/urd/proprietary/recovery/root/vendor/lib64/libtime_genoff.so:system/recovery/root/vendor/lib64/libtime_genoff.so \
     vendor/zte/urd/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/zte/urd/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/zte/urd/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
