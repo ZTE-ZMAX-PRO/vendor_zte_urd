@@ -99,7 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zte/urd/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/zte/urd/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/zte/urd/proprietary/vendor/lib/hw/camera.vendor.msm8952.so:system/vendor/lib/hw/camera.vendor.msm8952.so \
+    vendor/zte/urd/proprietary/vendor/lib/hw/camera.msm8952.so:system/vendor/lib/hw/camera.msm8952.so \
     vendor/zte/urd/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
     vendor/zte/urd/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
     vendor/zte/urd/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
@@ -349,6 +349,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/zte/urd/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/zte/urd/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/zte/urd/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/zte/urd/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/zte/urd/proprietary/vendor/lib/soundfx/libdirac.so:system/vendor/lib/soundfx/libdirac.so \
     vendor/zte/urd/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
