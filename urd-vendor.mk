@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/zte/urd/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/zte/urd/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
-    vendor/zte/urd/proprietary/lib/hw/lights.msm8952.so:system/lib/hw/lights.msm8952.so \
     vendor/zte/urd/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
     vendor/zte/urd/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zte/urd/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -114,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/zte/urd/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/zte/urd/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
-    vendor/zte/urd/proprietary/lib64/hw/lights.msm8952.so:system/lib64/hw/lights.msm8952.so \
     vendor/zte/urd/proprietary/lib64/hw/sensors.msm8952.so:system/lib64/hw/sensors.msm8952.so \
     vendor/zte/urd/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
     vendor/zte/urd/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
