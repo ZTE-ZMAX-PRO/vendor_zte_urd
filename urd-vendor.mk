@@ -110,7 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/urd/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/zte/urd/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/zte/urd/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/zte/urd/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
+    vendor/zte/urd/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/zte/urd/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zte/urd/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/zte/urd/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
